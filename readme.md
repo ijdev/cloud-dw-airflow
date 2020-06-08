@@ -13,7 +13,8 @@ Airflow: Make it easy ot manage the process of the ETL
 ### Data Model
  *A SIMPLE OVERVIEW OF WHAT THE DATA SCHEMA LOOKS LIKE.*\
  **Please refer to the data dictionary to know more about all the fields.**
-![image](./schema.png)
+ 
+ ![Shcema](/schema.PNG)
 
 The database uses the star schema with 1 fact table and 5 dimensions tables.
 
@@ -38,9 +39,7 @@ Known the country of the immegrant, what country are most immigrants are from? a
 
 ### Data pipeline
 Data must be in s3 bucket the pipeline job which is an airflow Dag is to get the data, load it to a staging tables, and then create conceptual schema of dimensions and fact tables
-
-![image](./dag_pic.png)
-
+![dag](/dag_pic.PNG)
 
 ### Scenarios
 #### Data increase by 100x
