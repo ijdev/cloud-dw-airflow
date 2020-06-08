@@ -1,0 +1,16 @@
+{
+  "jsonpaths": [
+    "$.fields.city",
+    "$.fields.state",
+    "$.fields.median_age",
+    "$.fields.male_population",
+    "$.fields.female_population",
+    "$.fields.total_population",
+    "$.fields.number_of_veterans",
+    "$.fields.foreign_born",
+    "$.fields.average_household_size",
+    "$.fields.state_code",
+    "$.fields.race",
+    "$.fields.count"
+  ]
+}
